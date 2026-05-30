@@ -53,18 +53,39 @@ var developer = new Developer
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-### Frameworks and Tools
+### Desktop & GUI Frameworks
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![WPF](https://img.shields.io/badge/WPF-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+![WinForms](https://img.shields.io/badge/WinForms-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 ![SFML](https://img.shields.io/badge/SFML-8CC445?style=for-the-badge&logo=sfml&logoColor=white)
+![ImGui](https://img.shields.io/badge/ImGui-gray?style=for-the-badge&logo=cplusplus&logoColor=white)
+
+### Backend & Web
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+### Databases & Tools
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
+![Newtonsoft](https://img.shields.io/badge/Newtonsoft.Json-004880?style=for-the-badge&logo=nuget&logoColor=white)
+
+### AI & Crypto Tools
+![ML.NET](https://img.shields.io/badge/ML.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Binance API](https://img.shields.io/badge/Binance%20API-F0B90B?style=for-the-badge&logo=binance&logoColor=black)
+![OpenAI](https://img.shields.io/badge/OpenAI%20API-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 ### Dev Environment
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![NuGet](https://img.shields.io/badge/NuGet-004880?style=for-the-badge&logo=nuget&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 </div>
 
@@ -93,12 +114,6 @@ var developer = new Developer
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=090TYPE&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8&card_width=500" width="60%"/>
-
-</div>
-
-<div align="center">
-
 ```
   Language Usage Breakdown  (by lines of code across all repos)
   ─────────────────────────────────────────────────────────────
@@ -117,8 +132,11 @@ var developer = new Developer
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=090TYPE&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&rank_icon=github"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=090TYPE&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6"/>
+| Stat | Value |
+|:---:|:---:|
+| ![Commits](https://img.shields.io/badge/Total%20Commits-106-58a6ff?style=flat-square&logo=git&logoColor=white&labelColor=0d1117) | ![Repos](https://img.shields.io/badge/Public%20Repos-19-58a6ff?style=flat-square&logo=github&logoColor=white&labelColor=0d1117) |
+| ![Since](https://img.shields.io/badge/GitHub%20Since-2022-58a6ff?style=flat-square&logo=github&logoColor=white&labelColor=0d1117) | ![Streak](https://img.shields.io/badge/Current%20Streak-2%20days-ff6b6b?style=flat-square&logo=fire&logoColor=white&labelColor=0d1117) |
+| [![Followers](https://img.shields.io/github/followers/090TYPE?style=flat-square&color=58a6ff&labelColor=0d1117&label=Followers&logo=github)](https://github.com/090TYPE?tab=followers) | [![Stars](https://img.shields.io/github/stars/090TYPE?style=flat-square&color=ffd700&labelColor=0d1117&label=Total%20Stars&logo=github)](https://github.com/090TYPE) |
 
 </div>
 
