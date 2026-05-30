@@ -89,6 +89,32 @@ var developer = new Developer
 
 ---
 
+## Most Used Languages
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=090TYPE&layout=donut&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="38%"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=090TYPE&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="55%"/>
+
+</div>
+
+<div align="center">
+
+```
+Language Usage Breakdown (by repository count)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  C#          ████████████████████░░░░░░░░░░    65%
+  C++         ████████░░░░░░░░░░░░░░░░░░░░░░    25%
+  HTML/CSS    ███░░░░░░░░░░░░░░░░░░░░░░░░░░░     7%
+  JavaScript  █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     3%
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+</div>
+
+---
+
 ## GitHub Stats
 
 <div align="center">
@@ -100,13 +126,13 @@ var developer = new Developer
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=090TYPE&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=ff6b6b&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e)](https://git.io/streak-stats)
+<img src="https://github-readme-streak-stats-eight.vercel.app/?user=090TYPE&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=ff6b6b&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" width="70%"/>
 
 </div>
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=090TYPE&theme=algolia&no-frame=true&no-bg=true&margin-w=4&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="https://github-profile-trophy.vercel.app/?username=090TYPE&theme=algolia&no-frame=true&no-bg=true&margin-w=4&column=6&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" width="100%"/>
 
 </div>
 
@@ -116,7 +142,7 @@ var developer = new Developer
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=090TYPE&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=090TYPE&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true" width="100%"/>
 
 </div>
 
