@@ -93,22 +93,22 @@ var developer = new Developer
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=090TYPE&layout=donut&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="38%"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=090TYPE&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="55%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=090TYPE&layout=donut-vertical&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="35%"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=090TYPE&layout=pie&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="35%"/>
 
 </div>
 
 <div align="center">
 
 ```
-Language Usage Breakdown (by repository count)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  C#          ████████████████████░░░░░░░░░░    65%
-  C++         ████████░░░░░░░░░░░░░░░░░░░░░░    25%
-  HTML/CSS    ███░░░░░░░░░░░░░░░░░░░░░░░░░░░     7%
-  JavaScript  █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     3%
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Language Usage Breakdown  (by lines of code across all repos)
+  ─────────────────────────────────────────────────────────────
+  C#            ████████████████████░░░░░░░░░░   65%   primary
+  C++           ████████░░░░░░░░░░░░░░░░░░░░░░   25%   systems
+  HTML / CSS    ███░░░░░░░░░░░░░░░░░░░░░░░░░░░    7%   web
+  JavaScript    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    3%   scripting
+  ─────────────────────────────────────────────────────────────
 ```
 
 </div>
@@ -121,18 +121,6 @@ Language Usage Breakdown (by repository count)
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=090TYPE&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&rank_icon=github"/>
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=090TYPE&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats-eight.vercel.app/?user=090TYPE&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=ff6b6b&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" width="70%"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=090TYPE&theme=algolia&no-frame=true&no-bg=true&margin-w=4&column=6&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" width="100%"/>
 
 </div>
 
