@@ -93,9 +93,7 @@ var developer = new Developer
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=090TYPE&layout=donut-vertical&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="35%"/>
-&nbsp;&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=090TYPE&layout=pie&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="35%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=090TYPE&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8&card_width=500" width="60%"/>
 
 </div>
 
@@ -120,7 +118,7 @@ var developer = new Developer
 <div align="center">
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=090TYPE&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&rank_icon=github"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=090TYPE&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=090TYPE&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6"/>
 
 </div>
 
