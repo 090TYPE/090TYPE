@@ -128,10 +128,21 @@ var developer = new Developer
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=090TYPE&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=ffffff&border_color=30363d" width="55%" alt="Top Languages"/>
+```
+Language     Distribution                   Share
+────────────────────────────────────────────────────
+C#            ██████████████████████░░░░░░   77.1%
+Batchfile     ██░░░░░░░░░░░░░░░░░░░░░░░░░░    8.6%
+Python        ██░░░░░░░░░░░░░░░░░░░░░░░░░░    6.1%
+C++           █░░░░░░░░░░░░░░░░░░░░░░░░░░░    3.3%
+HTML          █░░░░░░░░░░░░░░░░░░░░░░░░░░░    2.9%
+CSS           ░░░░░░░░░░░░░░░░░░░░░░░░░░░░    0.7%
+TSQL          ░░░░░░░░░░░░░░░░░░░░░░░░░░░░    0.4%
+JavaScript    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░    0.4%
+────────────────────────────────────────────────────
+```
 
 </div>
-
 ---
 
 ## GitHub Stats
