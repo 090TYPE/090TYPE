@@ -1,0 +1,98 @@
+name: "🔄 Update Language Stats"
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'   # every Monday 06:00 UTC
+  push:
+    branches: [main]
+  workflow_dispatch:       # allow manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch language stats & patch README
+        run: |
+          python3 - << 'PYEOF'
+          import urllib.request, json, re, sys
+
+          USERNAME = "090TYPE"
+          HDR = {"User-Agent": "readme-lang-updater/1.0",
+                 "Accept": "application/vnd.github+json"}
+
+          def fetch(url):
+              req = urllib.request.Request(url, headers=HDR)
+              with urllib.request.urlopen(req, timeout=20) as r:
+                  return json.loads(r.read())
+
+          print("Fetching repos...")
+          repos = fetch(f"https://api.github.com/users/{USERNAME}/repos?per_page=100&type=owner")
+
+          lang_bytes = {}
+          for repo in repos:
+              if repo["fork"]:
+                  continue
+              try:
+                  langs = fetch(repo["languages_url"])
+                  for lang, n in langs.items():
+                      lang_bytes[lang] = lang_bytes.get(lang, 0) + n
+                  print(f"  {repo['name']}: {list(langs.keys())}")
+              except Exception as e:
+                  print(f"  skip {repo['name']}: {e}", file=sys.stderr)
+
+          sorted_langs = sorted(lang_bytes.items(), key=lambda x: x[1], reverse=True)
+          total = sum(v for _, v in sorted_langs) or 1
+
+          W = 28
+          FILL, EMPTY = "\u2588", "\u2591"
+          rows = [
+              "Language     Distribution                   Share",
+              "\u2500" * 52,
+          ]
+          for lang, b in sorted_langs[:8]:
+              pct = b / total * 100
+              f = round(pct / 100 * W)
+              bar = FILL * f + EMPTY * (W - f)
+              rows.append(f"{lang:<13} {bar}  {pct:5.1f}%")
+          rows.append("\u2500" * 52)
+          chart = "\n".join(rows)
+
+          with open("README.md", "r", encoding="utf-8") as fh:
+              content = fh.read()
+
+          new_block = (
+              "## Most Used Languages\n\n"
+              '<div align="center">\n\n'
+              f"```\n{chart}\n```\n\n"
+              "</div>"
+          )
+
+          updated = re.sub(
+              r"## Most Used Languages.*?(?=\n---\n)",
+              new_block,
+              content,
+              flags=re.DOTALL,
+          )
+
+          if updated == content:
+              print("WARNING: section not found — check README format")
+              sys.exit(0)
+
+          with open("README.md", "w", encoding="utf-8") as fh:
+              fh.write(updated)
+          print("README patched OK")
+          PYEOF
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet \
+            && echo "No changes — nothing to commit" \
+            || (git commit -m "chore: auto-update language stats [skip ci]" && git push)
