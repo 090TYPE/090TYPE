@@ -128,17 +128,7 @@ var developer = new Developer
 
 <div align="center">
 
-```
-Language Usage Breakdown (by lines of code across all repos)
-─────────────────────────────────────────────────────────────
-C#         ████████████████████░░░░░░░░░░  55%  primary
-C++        ████████░░░░░░░░░░░░░░░░░░░░░░  22%  systems & tools
-Python     █████░░░░░░░░░░░░░░░░░░░░░░░░░  15%  AI & editors
-HTML/CSS   ███░░░░░░░░░░░░░░░░░░░░░░░░░░░   5%  web
-JavaScript █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2%  scripting
-Other      █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   1%  Java / misc
-─────────────────────────────────────────────────────────────
-```
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=090TYPE&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=ffffff&border_color=30363d" width="55%" alt="Top Languages"/>
 
 </div>
 
