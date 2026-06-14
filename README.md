@@ -1,4 +1,3 @@
-@@ -1,178 +0,0 @@
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,30:0a0a1a,60:0d1b2a,100:16213e&height=220&section=header&text=090_TYPE&fontSize=75&fontColor=ffffff&fontAlignY=40&desc=Software%20Developer%20%7C%20C%23%20%7C%20C%2B%2B%20%7C%20Python%20%7C%20.NET&descAlignY=60&descSize=20&animation=fadeIn&stroke=58a6ff&strokeWidth=2" width="100%"/>
