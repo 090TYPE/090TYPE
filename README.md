@@ -126,6 +126,22 @@ var developer = new Developer
 
 <div align="center">
 
+### ⭐ Flagship — memscope
+
+**See the C++ heap live** — every `new` / `delete`, fragmentation, leaks, churn and call stacks, in real time. Most tools analyze *after* the program ends; memscope shows it *as it runs*.
+
+<a href="https://github.com/090TYPE/memscope">
+  <img src="https://raw.githubusercontent.com/090TYPE/memscope/main/docs/overview.gif" width="88%" alt="memscope — live C++ heap visualizer"/>
+</a>
+
+[**▶ Open memscope →**](https://github.com/090TYPE/memscope) &nbsp;·&nbsp; C++20 · Dear ImGui · Windows / Linux / macOS &nbsp;·&nbsp; [![Stars](https://img.shields.io/github/stars/090TYPE/memscope?style=social)](https://github.com/090TYPE/memscope)
+
+</div>
+
+---
+
+<div align="center">
+
 ### 🖥️ Desktop & GUI Apps
 
 | Project | Description | Stack | Stars |
